@@ -113,12 +113,12 @@ class EasyABC extends Component{
             <div className="game">
                 <span className="random-label">Shuffle: </span>
                 <label className="switch">
-                    <input type="checkbox" onClick={this.switchRandom} defaultValue = "false" checked={this.state.random}/>
+                    <input type="checkbox" onClick={this.switchRandom} defaultValue = "false" defaultChecked={this.state.random}/>
                     <div className="slider round"></div>
                 </label>
                 <span className="random-label">Sound: </span>
                 <label className="switch">
-                    <input type="checkbox" onClick={this.switchSound} defaultValue = "false" checked={this.state.sound}/>
+                    <input type="checkbox" onClick={this.switchSound} defaultValue = "false" defaultChecked={this.state.sound}/>
                     <div className="slider round"></div>
                 </label>
                 <div className="option">
